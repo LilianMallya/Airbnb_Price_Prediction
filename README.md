@@ -1,4 +1,4 @@
-Airbnb Price Prediction in London
+## Airbnb Price Prediction in London
 This project explores the use of machine learning techniques to predict Airbnb listing prices in London. It includes data preprocessing, exploratory data analysis, regression modeling, residual diagnostics, and clustering. The goal is to build a robust model that accurately estimates listing prices based on key features such as room type, location, number of bedrooms, and guest capacity.
 
 Key components:

@@ -1,0 +1,33 @@
+2025-03-27 15:01:11,643 - INFO - 📥 Loading and preprocessing data...
+2025-03-27 15:01:11,643 - ERROR - Data loading failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 15:01:11,643 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 15:03:58,683 - INFO - 📥 Loading and preprocessing data...
+2025-03-27 15:03:58,733 - INFO - Data loaded successfully from: data/processed/cleaned_listings.csv
+2025-03-27 15:03:58,872 - INFO - 🌲 Training Random Forest with hyperparameter tuning...
+2025-03-27 15:05:38,841 - INFO - Best parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200}
+2025-03-27 15:05:38,842 - INFO - Best CV RMSE: 0.355
+2025-03-27 15:05:39,530 - INFO - Model saved to models/random_forest_model.pkl
+2025-03-27 15:05:39,794 - INFO - Feature importance plot saved to outputs/rf_feature_importance.png
+2025-03-27 15:05:39,794 - INFO - 
+            ✅ Random Forest Training Complete
+            ================================
+            Best Params: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200}
+            CV Best RMSE: 0.355
+            Test RMSE: 0.347
+            Test R²: 0.781
+            
+2025-03-27 19:56:48,550 - INFO - 📥 Loading and preprocessing data...
+2025-03-27 19:56:48,590 - INFO - Data loaded successfully from: data/processed/cleaned_listings.csv
+2025-03-27 19:56:48,707 - INFO - 🌲 Training Random Forest with hyperparameter tuning...
+2025-03-27 19:58:23,128 - INFO - Best parameters: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200}
+2025-03-27 19:58:23,129 - INFO - Best CV RMSE: 0.355
+2025-03-27 19:58:23,830 - INFO - Model saved to models/random_forest_model.pkl
+2025-03-27 19:58:24,040 - INFO - Feature importance plot saved to outputs/rf_feature_importance.png
+2025-03-27 19:58:24,040 - INFO - 
+            ✅ Random Forest Training Complete
+            ================================
+            Best Params: {'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'n_estimators': 200}
+            CV Best RMSE: 0.355
+            Test RMSE: 0.347
+            Test R²: 0.781
+            

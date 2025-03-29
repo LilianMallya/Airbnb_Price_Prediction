@@ -1,0 +1,394 @@
+{
+    "0": {
+        "linear": {
+            "rmse": 4.255565650219821,
+            "r2": 0.001921472423285664,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": -0.20575508439918644,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 4.255784301518567,
+            "r2": 0.0018189070815143316,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 1.0,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "3": {
+        "linear": {
+            "rmse": 5.020462036543482,
+            "r2": -0.0008339932531913341,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": -0.014769350766102056,
+                "room_type_Private room": -0.07399463062568529,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 4.549060409249615,
+            "r2": 0.1782909293423327,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 0.856250085147817,
+                "room_type_Private room": 0.14374991485218305,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "5": {
+        "linear": {
+            "rmse": 66.56567398965285,
+            "r2": -0.6193038926296683,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 4.476365607636777,
+                "room_type_Private room": 20.017814307465425,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 59.73730623803363,
+            "r2": -0.30412422487096835,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 0.6555764011411532,
+                "room_type_Private room": 0.3444235988588467,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "1": {
+        "linear": {
+            "rmse": 7.442308304654541,
+            "r2": 0.008575275548388328,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": -0.7535623366553681,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 7.591257575964346,
+            "r2": -0.03150630317192893,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 1.0,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "2": {
+        "linear": {
+            "rmse": 5.199854555805056,
+            "r2": -0.0006512111718446345,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": -0.005381672316898947,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 5.192389927621785,
+            "r2": 0.0022196875259306026,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 1.0,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "4": {
+        "linear": {
+            "rmse": 20.013522330005106,
+            "r2": 0.4309811913824194,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 17.13157560908848,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 23.156979182876462,
+            "r2": 0.23819578321171642,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 1.0,
+                "room_type_Private room": 0.0,
+                "room_type_Shared room": 0.0
+            }
+        }
+    },
+    "6": {
+        "linear": {
+            "rmse": 37.176919033513705,
+            "r2": -0.016277947382143276,
+            "params": {
+                "aggregationDepth": "2",
+                "elasticNetParam": "0.5",
+                "epsilon": "1.35",
+                "featuresCol": "scaled_features",
+                "fitIntercept": "True",
+                "labelCol": "minimum_nights",
+                "loss": "squaredError",
+                "maxBlockSizeInMB": "0.0",
+                "maxIter": "100",
+                "predictionCol": "prediction",
+                "regParam": "0.0",
+                "solver": "auto",
+                "standardization": "True",
+                "tol": "1e-06"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 2.659510004818006,
+                "room_type_Private room": -4.513274639509878,
+                "room_type_Shared room": 0.0
+            }
+        },
+        "rf": {
+            "rmse": 35.790669839402575,
+            "r2": 0.05809877105071448,
+            "params": {
+                "bootstrap": "True",
+                "cacheNodeIds": "False",
+                "checkpointInterval": "10",
+                "featureSubsetStrategy": "auto",
+                "featuresCol": "scaled_features",
+                "impurity": "variance",
+                "labelCol": "minimum_nights",
+                "leafCol": "",
+                "maxBins": "32",
+                "maxDepth": "5",
+                "maxMemoryInMB": "256",
+                "minInfoGain": "0.0",
+                "minInstancesPerNode": "1",
+                "minWeightFractionPerNode": "0.0",
+                "numTrees": "50",
+                "predictionCol": "prediction",
+                "seed": "42",
+                "subsamplingRate": "1.0"
+            },
+            "feature_importance": {
+                "calculated_host_listings_count": 0.7268423502715705,
+                "room_type_Private room": 0.2731576497284295,
+                "room_type_Shared room": 0.0
+            }
+        }
+    }
+}

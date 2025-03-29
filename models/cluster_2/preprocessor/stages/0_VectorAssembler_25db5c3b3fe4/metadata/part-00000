@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1743105135874,"sparkVersion":"3.5.0","uid":"VectorAssembler_25db5c3b3fe4","paramMap":{"outputCol":"features","inputCols":["calculated_host_listings_count","room_type_Private room","room_type_Shared room"]},"defaultParamMap":{"outputCol":"VectorAssembler_25db5c3b3fe4__output","handleInvalid":"error"}}

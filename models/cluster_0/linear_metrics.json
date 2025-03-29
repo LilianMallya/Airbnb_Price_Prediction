@@ -1,0 +1,20 @@
+{
+    "cluster_id": 0,
+    "model_type": "linear",
+    "params": {
+        "aggregationDepth": "2",
+        "elasticNetParam": "0.5",
+        "epsilon": "1.35",
+        "featuresCol": "scaled_features",
+        "fitIntercept": "True",
+        "labelCol": "minimum_nights",
+        "loss": "squaredError",
+        "maxBlockSizeInMB": "0.0",
+        "maxIter": "100",
+        "predictionCol": "prediction",
+        "regParam": "0.0",
+        "solver": "auto",
+        "standardization": "True",
+        "tol": "1e-06"
+    }
+}

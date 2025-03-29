@@ -1,0 +1,14 @@
+host_response_rate
+host_acceptance_rate
+host_is_superhost
+host_listings_count
+host_total_listings_count
+accommodates
+bathrooms
+bedrooms
+beds
+minimum_nights
+maximum_nights
+number_of_reviews
+review_scores_rating
+calculated_host_listings_count

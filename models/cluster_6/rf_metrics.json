@@ -1,0 +1,24 @@
+{
+    "cluster_id": 6,
+    "model_type": "rf",
+    "params": {
+        "bootstrap": "True",
+        "cacheNodeIds": "False",
+        "checkpointInterval": "10",
+        "featureSubsetStrategy": "auto",
+        "featuresCol": "scaled_features",
+        "impurity": "variance",
+        "labelCol": "minimum_nights",
+        "leafCol": "",
+        "maxBins": "32",
+        "maxDepth": "5",
+        "maxMemoryInMB": "256",
+        "minInfoGain": "0.0",
+        "minInstancesPerNode": "1",
+        "minWeightFractionPerNode": "0.0",
+        "numTrees": "50",
+        "predictionCol": "prediction",
+        "seed": "42",
+        "subsamplingRate": "1.0"
+    }
+}

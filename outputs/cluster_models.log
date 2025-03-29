@@ -1,0 +1,251 @@
+2025-03-27 16:49:37,069 - INFO - Loading clustered data from data/clustered_listings.csv
+2025-03-27 16:49:37,082 - ERROR - Data loading failed: Missing required columns: {'log_price'}
+2025-03-27 16:49:37,082 - ERROR - Training failed: Missing required columns: {'log_price'}
+2025-03-27 16:50:50,496 - INFO - Loading clustered data from data/processed/clustered_listings.csv
+2025-03-27 16:50:50,498 - ERROR - Data loading failed: [Errno 2] No such file or directory: 'data/processed/clustered_listings.csv'
+2025-03-27 16:50:50,498 - ERROR - Training failed: [Errno 2] No such file or directory: 'data/processed/clustered_listings.csv'
+2025-03-27 16:53:03,731 - INFO - Loading clustered data from data/clustered_listings.csv
+2025-03-27 16:53:03,748 - ERROR - Data loading failed: Missing required columns: {'log_price'}
+2025-03-27 16:53:03,748 - ERROR - Training failed: Missing required columns: {'log_price'}
+2025-03-27 17:00:34,619 - INFO - Loading data from data/clustered_listings.csv
+2025-03-27 17:00:34,634 - WARNING - Creating synthetic log_price column
+2025-03-27 17:00:34,635 - ERROR - Data loading failed: Missing columns: {'room_type', 'accommodates', 'bathrooms', 'property_type', 'review_scores_rating', 'bedrooms', 'number_of_reviews', 'neighbourhood'}
+2025-03-27 17:00:34,635 - ERROR - Training failed: Missing columns: {'room_type', 'accommodates', 'bathrooms', 'property_type', 'review_scores_rating', 'bedrooms', 'number_of_reviews', 'neighbourhood'}
+2025-03-27 17:08:44,658 - INFO - Loading data from data/clustered_listings.csv
+2025-03-27 17:08:45,779 - INFO - Data loaded successfully with columns: minimum_nights, calculated_host_listings_count, room_type_Private room, room_type_Shared room, cluster
+2025-03-27 17:08:45,779 - INFO - Cluster distribution:
+2025-03-27 17:08:47,329 - INFO - 
+==================================================
+Processing cluster 0
+==================================================
+2025-03-27 17:08:47,753 - INFO - Training LINEAR for cluster 0
+2025-03-27 17:08:51,912 - INFO - Closing down clientserver connection
+2025-03-27 17:08:51,912 - INFO - Closing down clientserver connection
+2025-03-27 17:08:52,579 - INFO - Training RF for cluster 0
+2025-03-27 17:08:56,788 - INFO - Closing down clientserver connection
+2025-03-27 17:08:56,788 - INFO - Closing down clientserver connection
+2025-03-27 17:08:57,349 - INFO - 
+==================================================
+Processing cluster 3
+==================================================
+2025-03-27 17:08:57,454 - INFO - Training LINEAR for cluster 3
+2025-03-27 17:08:59,737 - INFO - Closing down clientserver connection
+2025-03-27 17:08:59,737 - INFO - Closing down clientserver connection
+2025-03-27 17:08:59,931 - INFO - Training RF for cluster 3
+2025-03-27 17:09:02,535 - INFO - Closing down clientserver connection
+2025-03-27 17:09:02,535 - INFO - Closing down clientserver connection
+2025-03-27 17:09:02,990 - INFO - 
+==================================================
+Processing cluster 5
+==================================================
+2025-03-27 17:09:03,083 - INFO - Training LINEAR for cluster 5
+2025-03-27 17:09:05,082 - INFO - Closing down clientserver connection
+2025-03-27 17:09:05,082 - INFO - Closing down clientserver connection
+2025-03-27 17:09:05,278 - INFO - Training RF for cluster 5
+2025-03-27 17:09:07,596 - INFO - Closing down clientserver connection
+2025-03-27 17:09:07,597 - INFO - Closing down clientserver connection
+2025-03-27 17:09:07,974 - INFO - 
+==================================================
+Processing cluster 1
+==================================================
+2025-03-27 17:09:08,072 - INFO - Training LINEAR for cluster 1
+2025-03-27 17:09:10,038 - INFO - Closing down clientserver connection
+2025-03-27 17:09:10,038 - INFO - Closing down clientserver connection
+2025-03-27 17:09:10,217 - INFO - Training RF for cluster 1
+2025-03-27 17:09:12,522 - INFO - Closing down clientserver connection
+2025-03-27 17:09:12,522 - INFO - Closing down clientserver connection
+2025-03-27 17:09:12,918 - INFO - 
+==================================================
+Processing cluster 2
+==================================================
+2025-03-27 17:09:13,003 - INFO - Training LINEAR for cluster 2
+2025-03-27 17:09:15,038 - INFO - Closing down clientserver connection
+2025-03-27 17:09:15,038 - INFO - Closing down clientserver connection
+2025-03-27 17:09:15,219 - INFO - Training RF for cluster 2
+2025-03-27 17:09:18,225 - INFO - Closing down clientserver connection
+2025-03-27 17:09:18,225 - INFO - Closing down clientserver connection
+2025-03-27 17:09:18,685 - INFO - 
+==================================================
+Processing cluster 4
+==================================================
+2025-03-27 17:09:18,771 - INFO - Training LINEAR for cluster 4
+2025-03-27 17:09:20,985 - INFO - Closing down clientserver connection
+2025-03-27 17:09:20,985 - INFO - Closing down clientserver connection
+2025-03-27 17:09:21,141 - INFO - Training RF for cluster 4
+2025-03-27 17:09:22,834 - INFO - Closing down clientserver connection
+2025-03-27 17:09:22,835 - INFO - Closing down clientserver connection
+2025-03-27 17:09:23,199 - INFO - 
+==================================================
+Processing cluster 6
+==================================================
+2025-03-27 17:09:23,280 - INFO - Training LINEAR for cluster 6
+2025-03-27 17:09:25,470 - INFO - Closing down clientserver connection
+2025-03-27 17:09:25,470 - INFO - Closing down clientserver connection
+2025-03-27 17:09:25,648 - INFO - Training RF for cluster 6
+2025-03-27 17:09:27,964 - INFO - Closing down clientserver connection
+2025-03-27 17:09:27,964 - INFO - Closing down clientserver connection
+2025-03-27 17:09:28,312 - INFO - 
+==================================================
+Processing cluster 7
+==================================================
+2025-03-27 17:09:28,374 - WARNING - Skipping cluster 7 - only 3 samples
+2025-03-27 17:09:28,378 - ERROR - Training failed: keys must be str, int, float, bool or None, not Param
+2025-03-27 17:09:29,383 - INFO - Closing down clientserver connection
+2025-03-27 17:24:48,015 - INFO - Loading data from data/clustered_listings.csv
+2025-03-27 17:24:49,068 - INFO - Data loaded with shape: (60374, 5)
+2025-03-27 17:24:49,068 - INFO - Cluster distribution:
+2025-03-27 17:24:50,707 - INFO - 
+==================================================
+Processing cluster 0
+==================================================
+2025-03-27 17:24:51,172 - INFO - Training LINEAR for cluster 0
+2025-03-27 17:24:55,039 - INFO - Closing down clientserver connection
+2025-03-27 17:24:55,039 - INFO - Closing down clientserver connection
+2025-03-27 17:24:55,677 - INFO - Training RF for cluster 0
+2025-03-27 17:24:59,388 - INFO - Closing down clientserver connection
+2025-03-27 17:24:59,388 - INFO - Closing down clientserver connection
+2025-03-27 17:24:59,975 - INFO - 
+==================================================
+Processing cluster 3
+==================================================
+2025-03-27 17:25:00,087 - INFO - Training LINEAR for cluster 3
+2025-03-27 17:25:02,226 - INFO - Closing down clientserver connection
+2025-03-27 17:25:02,226 - INFO - Closing down clientserver connection
+2025-03-27 17:25:02,402 - INFO - Training RF for cluster 3
+2025-03-27 17:25:04,890 - INFO - Closing down clientserver connection
+2025-03-27 17:25:04,890 - INFO - Closing down clientserver connection
+2025-03-27 17:25:05,433 - INFO - 
+==================================================
+Processing cluster 5
+==================================================
+2025-03-27 17:25:05,523 - INFO - Training LINEAR for cluster 5
+2025-03-27 17:25:07,520 - INFO - Closing down clientserver connection
+2025-03-27 17:25:07,520 - INFO - Closing down clientserver connection
+2025-03-27 17:25:07,707 - INFO - Training RF for cluster 5
+2025-03-27 17:25:09,916 - INFO - Closing down clientserver connection
+2025-03-27 17:25:09,917 - INFO - Closing down clientserver connection
+2025-03-27 17:25:10,409 - INFO - 
+==================================================
+Processing cluster 1
+==================================================
+2025-03-27 17:25:10,507 - INFO - Training LINEAR for cluster 1
+2025-03-27 17:25:12,426 - INFO - Closing down clientserver connection
+2025-03-27 17:25:12,426 - INFO - Closing down clientserver connection
+2025-03-27 17:25:12,595 - INFO - Training RF for cluster 1
+2025-03-27 17:25:14,804 - INFO - Closing down clientserver connection
+2025-03-27 17:25:14,804 - INFO - Closing down clientserver connection
+2025-03-27 17:25:15,365 - INFO - 
+==================================================
+Processing cluster 2
+==================================================
+2025-03-27 17:25:15,478 - INFO - Training LINEAR for cluster 2
+2025-03-27 17:25:17,482 - INFO - Closing down clientserver connection
+2025-03-27 17:25:17,482 - INFO - Closing down clientserver connection
+2025-03-27 17:25:17,682 - INFO - Training RF for cluster 2
+2025-03-27 17:25:20,598 - INFO - Closing down clientserver connection
+2025-03-27 17:25:20,598 - INFO - Closing down clientserver connection
+2025-03-27 17:25:20,991 - INFO - 
+==================================================
+Processing cluster 4
+==================================================
+2025-03-27 17:25:21,082 - INFO - Training LINEAR for cluster 4
+2025-03-27 17:25:22,935 - INFO - Closing down clientserver connection
+2025-03-27 17:25:22,935 - INFO - Closing down clientserver connection
+2025-03-27 17:25:23,088 - INFO - Training RF for cluster 4
+2025-03-27 17:25:24,706 - INFO - Closing down clientserver connection
+2025-03-27 17:25:24,706 - INFO - Closing down clientserver connection
+2025-03-27 17:25:25,171 - INFO - 
+==================================================
+Processing cluster 6
+==================================================
+2025-03-27 17:25:25,258 - INFO - Training LINEAR for cluster 6
+2025-03-27 17:25:27,099 - INFO - Closing down clientserver connection
+2025-03-27 17:25:27,099 - INFO - Closing down clientserver connection
+2025-03-27 17:25:27,297 - INFO - Training RF for cluster 6
+2025-03-27 17:25:29,549 - INFO - Closing down clientserver connection
+2025-03-27 17:25:29,549 - INFO - Closing down clientserver connection
+2025-03-27 17:25:29,976 - INFO - 
+==================================================
+Processing cluster 7
+==================================================
+2025-03-27 17:25:30,038 - WARNING - Skipping cluster 7 - only 3 samples
+2025-03-27 17:25:31,041 - INFO - Closing down clientserver connection
+2025-03-27 19:51:42,496 - INFO - Loading data from data/clustered_listings.csv
+2025-03-27 19:51:43,545 - INFO - Data loaded with shape: (60374, 5)
+2025-03-27 19:51:43,545 - INFO - Cluster distribution:
+2025-03-27 19:51:45,108 - INFO - 
+==================================================
+Processing cluster 0
+==================================================
+2025-03-27 19:51:45,559 - INFO - Training LINEAR for cluster 0
+2025-03-27 19:51:49,750 - INFO - Closing down clientserver connection
+2025-03-27 19:51:49,750 - INFO - Closing down clientserver connection
+2025-03-27 19:51:50,419 - INFO - Training RF for cluster 0
+2025-03-27 19:51:54,328 - INFO - Closing down clientserver connection
+2025-03-27 19:51:54,328 - INFO - Closing down clientserver connection
+2025-03-27 19:51:54,904 - INFO - 
+==================================================
+Processing cluster 3
+==================================================
+2025-03-27 19:51:55,018 - INFO - Training LINEAR for cluster 3
+2025-03-27 19:51:57,314 - INFO - Closing down clientserver connection
+2025-03-27 19:51:57,314 - INFO - Closing down clientserver connection
+2025-03-27 19:51:57,499 - INFO - Training RF for cluster 3
+2025-03-27 19:52:00,036 - INFO - Closing down clientserver connection
+2025-03-27 19:52:00,036 - INFO - Closing down clientserver connection
+2025-03-27 19:52:00,485 - INFO - 
+==================================================
+Processing cluster 5
+==================================================
+2025-03-27 19:52:00,585 - INFO - Training LINEAR for cluster 5
+2025-03-27 19:52:02,609 - INFO - Closing down clientserver connection
+2025-03-27 19:52:02,609 - INFO - Closing down clientserver connection
+2025-03-27 19:52:02,783 - INFO - Training RF for cluster 5
+2025-03-27 19:52:05,056 - INFO - Closing down clientserver connection
+2025-03-27 19:52:05,056 - INFO - Closing down clientserver connection
+2025-03-27 19:52:05,508 - INFO - 
+==================================================
+Processing cluster 1
+==================================================
+2025-03-27 19:52:05,601 - INFO - Training LINEAR for cluster 1
+2025-03-27 19:52:07,528 - INFO - Closing down clientserver connection
+2025-03-27 19:52:07,528 - INFO - Closing down clientserver connection
+2025-03-27 19:52:07,698 - INFO - Training RF for cluster 1
+2025-03-27 19:52:09,940 - INFO - Closing down clientserver connection
+2025-03-27 19:52:09,940 - INFO - Closing down clientserver connection
+2025-03-27 19:52:10,389 - INFO - 
+==================================================
+Processing cluster 2
+==================================================
+2025-03-27 19:52:10,486 - INFO - Training LINEAR for cluster 2
+2025-03-27 19:52:12,509 - INFO - Closing down clientserver connection
+2025-03-27 19:52:12,509 - INFO - Closing down clientserver connection
+2025-03-27 19:52:12,722 - INFO - Training RF for cluster 2
+2025-03-27 19:52:15,565 - INFO - Closing down clientserver connection
+2025-03-27 19:52:15,565 - INFO - Closing down clientserver connection
+2025-03-27 19:52:15,972 - INFO - 
+==================================================
+Processing cluster 4
+==================================================
+2025-03-27 19:52:16,055 - INFO - Training LINEAR for cluster 4
+2025-03-27 19:52:17,909 - INFO - Closing down clientserver connection
+2025-03-27 19:52:17,909 - INFO - Closing down clientserver connection
+2025-03-27 19:52:18,114 - INFO - Training RF for cluster 4
+2025-03-27 19:52:19,744 - INFO - Closing down clientserver connection
+2025-03-27 19:52:19,745 - INFO - Closing down clientserver connection
+2025-03-27 19:52:20,106 - INFO - 
+==================================================
+Processing cluster 6
+==================================================
+2025-03-27 19:52:20,188 - INFO - Training LINEAR for cluster 6
+2025-03-27 19:52:22,052 - INFO - Closing down clientserver connection
+2025-03-27 19:52:22,052 - INFO - Closing down clientserver connection
+2025-03-27 19:52:22,257 - INFO - Training RF for cluster 6
+2025-03-27 19:52:24,584 - INFO - Closing down clientserver connection
+2025-03-27 19:52:24,584 - INFO - Closing down clientserver connection
+2025-03-27 19:52:25,013 - INFO - 
+==================================================
+Processing cluster 7
+==================================================
+2025-03-27 19:52:25,073 - WARNING - Skipping cluster 7 - only 3 samples
+2025-03-27 19:52:26,078 - INFO - Closing down clientserver connection

@@ -1,0 +1,42 @@
+2025-03-27 13:58:41,945 - INFO - Loading raw data...
+2025-03-27 13:58:41,945 - ERROR - Data loading failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 13:58:41,945 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 14:00:02,654 - INFO - Loading raw data...
+2025-03-27 14:00:02,700 - INFO - Raw data loaded. Shape: (60374, 19)
+2025-03-27 14:00:02,704 - ERROR - Pipeline failed: Cannot convert non-finite values (NA or inf) to integer
+2025-03-27 14:00:28,419 - INFO - Loading raw data...
+2025-03-27 14:00:28,419 - ERROR - Data loading failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 14:00:28,420 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data/cleaned_listings.csv'
+2025-03-27 14:11:10,646 - INFO - Loading raw data...
+2025-03-27 14:11:10,691 - INFO - Data loaded from data/processed/cleaned_listings.csv. Shape: (60374, 19)
+2025-03-27 14:11:10,696 - ERROR - Pipeline failed: Cannot convert non-finite values (NA or inf) to integer
+2025-03-27 14:49:48,826 - INFO - Loading raw data...
+2025-03-27 14:49:48,869 - INFO - Data loaded from data/processed/cleaned_listings.csv. Shape: (60374, 19)
+2025-03-27 14:49:48,880 - INFO - Training model with cross-validation...
+2025-03-27 14:49:50,807 - ERROR - Pipeline failed: name 'json' is not defined
+2025-03-27 14:51:05,439 - INFO - Loading raw data...
+2025-03-27 14:51:05,484 - INFO - Data loaded from data/processed/cleaned_listings.csv. Shape: (60374, 19)
+2025-03-27 14:51:05,494 - INFO - Training model with cross-validation...
+2025-03-27 14:51:07,447 - INFO - Model artifacts saved to models
+2025-03-27 14:51:07,447 - INFO - 
+        Model Training Complete
+        =======================
+        Cross-Validation R²: 0.489 ± 0.004
+        Test Metrics:
+          RMSE: 0.534
+          MAE: 0.416
+          R²: 0.481
+        
+2025-03-27 19:51:28,777 - INFO - Loading raw data...
+2025-03-27 19:51:28,816 - INFO - Data loaded from data/processed/cleaned_listings.csv. Shape: (60374, 19)
+2025-03-27 19:51:28,824 - INFO - Training model with cross-validation...
+2025-03-27 19:51:30,738 - INFO - Model artifacts saved to models
+2025-03-27 19:51:30,738 - INFO - 
+        Model Training Complete
+        =======================
+        Cross-Validation R²: 0.489 ± 0.004
+        Test Metrics:
+          RMSE: 0.534
+          MAE: 0.416
+          R²: 0.481
+        

@@ -1,0 +1,20 @@
+2025-03-27 15:22:36,788 - INFO - Loading and preprocessing data for clustering...
+2025-03-27 15:22:36,855 - WARNING - Missing features excluded: ['latitude', 'longitude', 'availability_365']
+2025-03-27 15:22:36,859 - INFO - Determining optimal number of clusters...
+2025-03-27 15:25:33,593 - INFO - Optimal clusters - Silhouette: 8, Davies-Bouldin: 3, Calinski-Harabasz: 10
+2025-03-27 15:25:54,429 - INFO - 
+            ✅ Clustering Complete
+            =====================
+            Optimal clusters: 8
+            Cluster sizes: [19721   275 37238  1789   689    71   588     3]
+            
+2025-03-27 19:53:21,506 - INFO - Loading and preprocessing data for clustering...
+2025-03-27 19:53:21,549 - WARNING - Missing features excluded: ['latitude', 'longitude', 'availability_365']
+2025-03-27 19:53:21,552 - INFO - Determining optimal number of clusters...
+2025-03-27 19:56:17,966 - INFO - Optimal clusters - Silhouette: 8, Davies-Bouldin: 3, Calinski-Harabasz: 10
+2025-03-27 19:56:38,853 - INFO - 
+            ✅ Clustering Complete
+            =====================
+            Optimal clusters: 8
+            Cluster sizes: [19721   275 37238  1789   689    71   588     3]
+            

@@ -1,3 +1,17 @@
+Airbnb Price Prediction in London
+This project explores the use of machine learning techniques to predict Airbnb listing prices in London. It includes data preprocessing, exploratory data analysis, regression modeling, residual diagnostics, and clustering. The goal is to build a robust model that accurately estimates listing prices based on key features such as room type, location, number of bedrooms, and guest capacity.
+
+Key components:
+	•	Cleaned and transformed real-world Airbnb dataset
+	•	Visualizations to explore price distributions and neighborhood patterns
+	•	Regression models including Linear Regression and Random Forest
+	•	Log transformation to handle skewed price data
+	•	Model evaluation using RMSE, R², and residual plots
+	•	K-Means clustering for market segmentation
+	•	Feature importance analysis to interpret model decisions
+
+This project demonstrates practical skills in data science, predictive modeling, and analytical storytelling, aimed at improving pricing strategies for short-term rentals.
+
 ## Script: `data_preprocessing.py`
 
 ### Input:
